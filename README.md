@@ -1,15 +1,21 @@
 # Calculation App
 
-計算機アプリです。
+Vue.jsの学習のために作った計算機アプリです。
+小数点以下5位まで扱えます。
+
 演算子の優先順位：
 1. ％、/、×
 2. +、-
 優先順位が同じ場合は左側から計算します。
-小数点以下は5位まで扱えます。
 
 ## URL
 
 https://acha0203.github.io/Calculation_App/
+
+## Demo
+
+![Calc-App](https://user-images.githubusercontent.com/74553433/133291327-0f57dc58-34ac-4ebb-9bcc-02ac3b8ac8d3.png)
+
 
 ## Features
 
