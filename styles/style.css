@@ -1,0 +1,76 @@
+/* font */
+.green-text {
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	color: #00fdf1;
+	text-shadow: #00fdf1 0 0 5px;
+	white-space: nowrap;
+}
+
+.btn-text {
+	font-family: 'Nova Round', cursive;
+	font-size: 30px;
+	color: #000000;
+	text-shadow: 1px 1px 2px whitesmoke;
+	text-align: center;
+	border-radius: 5px;
+}
+
+/* size */
+.btn-small {
+	width: 56px;
+	height: 56px;
+}
+
+.btn-large {
+	width: 116px;
+	height: 56px;
+}
+
+.calc-width {
+	width: 320px;
+}
+
+/* effect */
+a:link {
+	color: #969696;
+}
+
+a:visited {
+	color: #5a5a5a;
+}
+
+/* specific layout */
+.metallic {
+	border-top: 2px solid #dddddd;
+	border-left: 2px solid #dddddd;
+	border-right: 2px solid #292929;
+	border-bottom: 2px solid #292929;
+	background: linear-gradient(to bottom, transparent, #7a7a7a);
+	background-color: #b1b1b1;
+}
+
+.btn-metallic {
+	border-top: 2px solid #dddddd;
+	border-left: 2px solid #dddddd;
+	border-right: 2px solid #292929;
+	border-bottom: 2px solid #292929;
+	background: linear-gradient(to bottom, transparent, #7a7a7a);
+	background-color: #b1b1b1;
+}
+
+.btn-metallic:active {
+	border-top: 2px solid #292929;
+	border-left: 2px solid #292929;
+	border-right: 2px solid #dddddd;
+	border-bottom: 2px solid #dddddd;
+}
+
+.btn-gradient {
+	background: linear-gradient(to top, transparent, #666666, #b3b3b3);
+}
+
+.number-display {
+	height: 100px;
+	border: 4px ridge #7e7e7e;
+	background: linear-gradient(#006168, #002e2e 20%, #002e2e 80%, #006168);
+}
